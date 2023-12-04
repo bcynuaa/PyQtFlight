@@ -1,0 +1,12 @@
+QTextBrowser {
+    color: "#00ff00";
+    background-color: "#000000";
+    font-family: "simhei", "Microsoft YaHei", "微软雅黑", "宋体", "arial", "sans-serif";
+    font-size: 12pt;
+    font-weight: 100;
+    text-align: center;
+    line-height: normal;
+    padding: 0%;
+    margin: 0%;
+    border: 0px;
+}

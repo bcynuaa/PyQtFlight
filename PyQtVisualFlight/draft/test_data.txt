@@ -1,0 +1,48 @@
+1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 111111111111111111111111
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+   |  Type = 0x01  |  Length = 0x04 |  Reserved     |  Flags        |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+   |  Reserved     |  Reserved     |  Reserved     |  Reserved     |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+   |  Reserved     |  Reserved     |  Reserved     |  Reserved     |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+   |  Reserved     |  Reserved     |  Reserved     |  Reserved     |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+   |  Reserved     |  Reserved     |  Reserved     |  Reserved     |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+   |  Reserved     |  Reserved     |  Reserved     |  Reserved     |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+   |  Reserved     |  Reserved     |  Reserved     |  Reserved     |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+   |  Reserved     |  Reserved     |  Reserved     |  Reserved     |
+   +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
+   Type
+
+      0x01
+
+   Length
+
+      0x04
+
+   Reserved
+
+      This field is reserved for future use.  It MUST be set to zero by
+      the sender and MUST be ignored by the receiver.
+
+   Flags
+
+      This field is used to indicate the capabilities of the sender.
+      The following flags are defined:
+
+      0x01 - The sender supports the use of the "S" bit in the
+      "Connection ID" field of the "Connection ID" TLV.
+
+      0x02 - The sender supports the use of the "S" bit in the
+      "Connection ID" field of the "Connection ID" TLV and the use of
+      the "S" bit in the "Connection ID" field of the "Connection ID"
+      TLV is required.
+
+      0x04 - The sender supports the use of the "S" bit in the
+      "Connection ID" field of the "Connection ID" TLV and the use of
+      the "S" bit in the "Connection ID

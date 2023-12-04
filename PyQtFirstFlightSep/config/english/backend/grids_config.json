@@ -1,0 +1,14 @@
+{
+    "standard mode response": {
+        "regular expression": "[Ss][Tt][Aa][Nn][Dd][Aa][Rr][Dd][Mm][Oo][Dd][Ee][Rr][Ee][Ss][Pp][Oo][Nn][Ss][Ee]",
+        "format": ".dat",
+        "skiprows": 0,
+        "max rows": 1,
+        "comment 1": "standard mode response file should look like this: sTanDarDModeresPonsE.dat",
+        "comment 2": "with skiprows = 0, max rows = 1, and format = '.dat'" 
+    },
+
+    "basic magnification": 0.01,
+
+    "compared sensor number": 1
+}

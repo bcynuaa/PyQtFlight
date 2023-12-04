@@ -1,0 +1,136 @@
+{
+    "bars": {
+        "first bar x position": 0,
+        "width": 10,
+        "spacing": 5,
+        "y0": 0,
+        "pen": {
+            "color": "#000000",
+            "width": 2,
+            "cap_style": "SquareCap",
+            "join_style": "MiterJoin"
+        },
+        "brush": {
+            "color": "#ffff00"
+        }
+    },
+
+    "crucial line": {
+        "activated": false,
+        "y position": 0.5,
+        "pen": {
+            "color": "#ff0000",
+            "width": 2,
+            "cap_style": "SquareCap",
+            "join_style": "MiterJoin"
+        }
+    },
+
+    "x ticks": {
+        "auto": false,
+        "name": "sensor",
+        "separator": "",
+        "custom": ["head", "middle", "end"]
+    },
+
+    "y ticks": {
+        "use fixed range": true,
+        "min": 0,
+        "max": 1
+    },
+    "global color": "#696969",
+    "global font-family": "SimHei",
+    "background color": "#ffffff",
+    "axis width": 2,
+    "pixel size": 10,
+    "enable mouse": false,
+    "enable menu": true,
+
+    "bottom": {
+        "label": "sensor",
+        "units": "ID",
+        "unitPrefix": " "
+    },
+    "left": {
+        "label": "sensor",
+        "units": "g",
+        "unitPrefix": " "
+    },
+    "label": {
+        "font-size": "8pt"
+    },
+    "title": {
+        "name": " ",
+        "settings": {
+            "font-size": "20pt"
+        }
+    },
+
+    "grid": {
+        "x": false,
+        "y": true
+    },
+
+    "additional things": {
+        "text": {
+            "activated": true,
+            "shared x shift": 2,
+            "values": [
+                {
+                    "text": "part 1",
+                    "pos": [0, 0.8],
+                    "pixel size": 15,
+                    "font-family": "SimHei",
+                    "color": "#0000ff",
+                    "border": "#000000",
+                    "fill": "#ffffff"
+                },
+                {
+                    "text": "part 2",
+                    "pos": [15, 0.8],
+                    "pixel size": 15,
+                    "font-family": "SimHei",
+                    "color": "#0000ff",
+                    "border": "#000000",
+                    "fill": "#ffffff"
+                },
+                {
+                    "text": "part 3",
+                    "pos": [30, 0.8],
+                    "pixel size": 15,
+                    "font-family": "SimHei",
+                    "color": "#0000ff",
+                    "border": "#000000",
+                    "fill": "#ffffff"
+                }
+            ]
+        },
+        "vertical line": {
+            "activated": true,
+            "values": [
+                {
+                    "after bar number": 1,
+                    "y min": 0,
+                    "y max": 1,
+                    "pen": {
+                        "color": "#0000ff",
+                        "width": 5,
+                        "cap_style": "SquareCap",
+                        "join_style": "MiterJoin"
+                    }
+                },
+                {
+                    "after bar number": 2,
+                    "y min": 0,
+                    "y max": 1,
+                    "pen": {
+                        "color": "#0000ff",
+                        "width": 5,
+                        "cap_style": "SquareCap",
+                        "join_style": "MiterJoin"
+                    }
+                }
+            ]
+        }
+    }
+}

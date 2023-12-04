@@ -1,0 +1,33 @@
+"filename", "language", "Python", "XML", "Markdown", "pip requirements", "Jupyter", "CSS", "comment", "blank", "total"
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\PyQtFlightTest.py", "Python", 17, 0, 0, 0, 0, 0, 10, 6, 33
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\README.md", "Markdown", 0, 0, 4, 0, 0, 0, 0, 2, 6
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\config\MainWindowSettings.py", "Python", 11, 0, 0, 0, 0, 0, 7, 5, 23
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\config\MatplotlibSettings.py", "Python", 65, 0, 0, 0, 0, 0, 17, 7, 89
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\config\Name.py", "Python", 51, 0, 0, 0, 0, 0, 20, 17, 88
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\config\PyvistaSettings.py", "Python", 15, 0, 0, 0, 0, 0, 9, 7, 31
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\config\__init__.py", "Python", 2, 0, 0, 0, 0, 0, 7, 2, 11
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\docs\side_bar.md", "Markdown", 0, 0, 7, 0, 0, 0, 0, 2, 9
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\draft\lstsq.ipynb", "Jupyter", 0, 0, 0, 0, 119, 0, 0, 1, 120
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\draft\side_tab.py", "Python", 48, 0, 0, 0, 0, 0, 7, 24, 79
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\draft\side_tab.qss", "CSS", 0, 0, 0, 0, 0, 16, 0, 2, 18
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\draft\simulation_database_read.ipynb", "Jupyter", 0, 0, 0, 0, 148, 0, 0, 1, 149
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\draft\stack_widget.py", "Python", 54, 0, 0, 0, 0, 0, 13, 17, 84
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\requirements.txt", "pip requirements", 0, 0, 0, 13, 0, 0, 0, 1, 14
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\src\CommunicatorClass.py", "Python", 74, 0, 0, 0, 0, 0, 16, 22, 112
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\src\DomainsWithGenDisClass.py", "Python", 89, 0, 0, 0, 0, 0, 26, 22, 137
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\src\Logic_MainWindow.py", "Python", 154, 0, 0, 0, 0, 0, 26, 26, 206
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\src\MatplotlibCanvasClass.py", "Python", 78, 0, 0, 0, 0, 0, 17, 28, 123
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\src\SensorsClass.py", "Python", 32, 0, 0, 0, 0, 0, 17, 16, 65
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\src\SimulationDatabaseClass.py", "Python", 86, 0, 0, 0, 0, 0, 35, 26, 147
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\src\__init__.py", "Python", 2, 0, 0, 0, 0, 0, 7, 2, 11
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\tests\__init__.py", "Python", 2, 0, 0, 0, 0, 0, 7, 2, 11
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\tests\test_DomainsWithGenDis.py", "Python", 11, 0, 0, 0, 0, 0, 20, 6, 37
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\tests\test_Sensors.py", "Python", 12, 0, 0, 0, 0, 0, 27, 7, 46
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\tests\test_SimulationDatabase.py", "Python", 16, 0, 0, 0, 0, 0, 29, 7, 52
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\ui\MainWindow.ui", "XML", 0, 185, 0, 0, 0, 0, 0, 1, 186
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\ui\Ui_MainWindow.py", "Python", 133, 0, 0, 0, 0, 0, 10, 36, 179
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\ui\__init__.py", "Python", 2, 0, 0, 0, 0, 0, 7, 2, 11
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\utils\RegularExpression.py", "Python", 31, 0, 0, 0, 0, 0, 12, 6, 49
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\utils\SubDict.py", "Python", 30, 0, 0, 0, 0, 0, 10, 5, 45
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\utils\__init__.py", "Python", 2, 0, 0, 0, 0, 0, 7, 2, 11
+"Total", "-", 1017, 185, 11, 13, 267, 16, 363, 310, 2182

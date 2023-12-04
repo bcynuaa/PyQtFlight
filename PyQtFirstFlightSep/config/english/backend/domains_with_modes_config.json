@@ -1,0 +1,15 @@
+{
+    "domains": {
+        "regular expression": "[Dd][Oo][Mm][Aa][Ii][Nn]\\d+",
+        "format": ".dat",
+        "comment": "domain files' name should look like domain1.dat, DOmaIn333.dat, etc."
+    },
+
+    "dim": 3,
+
+    "scalars": {
+        "list": ["ax", "ay", "m/s²"],
+        "default": "m/s²",
+        "comment": "default scalar to use for coloring the domain"
+    }
+}

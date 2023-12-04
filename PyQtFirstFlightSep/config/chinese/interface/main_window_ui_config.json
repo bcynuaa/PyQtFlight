@@ -1,0 +1,71 @@
+{
+    "window title": "颤振试飞数字平台",
+
+    "window icon": ".//resources//icons//window_icon.png",
+
+    "menu bar": {
+        "files": {
+            "text": "文件",
+            "values": {
+                "load data": {
+                    "text": "载入数据",
+                    "values": {
+                        "load json file": {
+                            "text": "载入配置文件"
+                        }
+                    }
+                },
+                "data stream": {
+                    "text": "数据流",
+                    "values": {
+                        "save data stream": {
+                            "text": "保存数据流"
+                        },
+                        "clear data stream": {
+                            "text": "清理数据流"
+                        }
+                    }
+                }
+            }
+        },
+        "edit": {
+            "text": "编辑",
+            "values": {
+                "todo": {
+                    "text": "Todo"
+                }
+            }
+        },
+        "options": {
+            "text": "选项",
+            "values": {
+                "start monitoring": {
+                    "text": "开始监测"
+                },
+                "end monitoring": {
+                    "text": "结束监测"
+                },
+                "replay": {
+                    "text": "回放"
+                }
+            }
+        },
+        "tools": {
+            "text": "工具",
+            "values": {
+                "run executables": {
+                    "text": "外部可执行程序"
+                }
+            }
+        }
+    },
+
+    "labels": {
+        "flight test grid plotter": {
+            "text": "试飞三维模型"
+        },
+        "simulation grid plotter": {
+            "text": "仿真三维模型"
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "autoHeader": {
+        "format": {
+            "startWith": "'''",
+            "middleWith": "*",
+            "endWith": "'''",
+            "headerPrefix": "-",
+        },
+        "header": {
+            "project": "PyQtFirstFlightSep",
+            "language": "Python",
+            "license": "Mozilla Public License 2.0",
+            "encoding": "UTF-8",
+            "author": "601 | Tongqing Guo | Di Zhou | Chenyu Bao",
+            "date": {
+                "type": "createTime",
+                "format": "YYYY-MM-DD HH:mm:ss",
+            },
+            "description": "",
+        }
+    }
+}

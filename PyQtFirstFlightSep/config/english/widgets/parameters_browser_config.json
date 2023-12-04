@@ -1,0 +1,17 @@
+{
+    "open external links": false,
+    "open links": false,
+    "read only": true,
+
+    "size": {
+        "maximum width": 800,
+        "maximum height": 800,
+        "minimum width": 100,
+        "minimum height": 300
+    },
+
+    "additional text": {
+        "before": "# Parameters' Table\n---\n",
+        "after": ""
+    }
+}

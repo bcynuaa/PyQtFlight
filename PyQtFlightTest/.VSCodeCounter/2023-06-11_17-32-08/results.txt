@@ -1,0 +1,68 @@
+Date : 2023-06-11 17:32:08
+Directory : c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest
+Total : 31 files,  1509 codes, 363 comments, 310 blanks, all 2182 lines
+
+Languages
++------------------+------------+------------+------------+------------+------------+
+| language         | files      | code       | comment    | blank      | total      |
++------------------+------------+------------+------------+------------+------------+
+| Python           |         24 |      1,017 |        363 |        300 |      1,680 |
+| Jupyter          |          2 |        267 |          0 |          2 |        269 |
+| XML              |          1 |        185 |          0 |          1 |        186 |
+| CSS              |          1 |         16 |          0 |          2 |         18 |
+| pip requirements |          1 |         13 |          0 |          1 |         14 |
+| Markdown         |          2 |         11 |          0 |          4 |         15 |
++------------------+------------+------------+------------+------------+------------+
+
+Directories
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                 | files      | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                    |         31 |      1,509 |        363 |        310 |      2,182 |
+| . (Files)                                                                                            |          3 |         34 |         10 |          9 |         53 |
+| config                                                                                               |          5 |        144 |         60 |         38 |        242 |
+| docs                                                                                                 |          1 |          7 |          0 |          2 |          9 |
+| draft                                                                                                |          5 |        385 |         20 |         45 |        450 |
+| src                                                                                                  |          7 |        515 |        144 |        142 |        801 |
+| tests                                                                                                |          4 |         41 |         83 |         22 |        146 |
+| ui                                                                                                   |          3 |        320 |         17 |         39 |        376 |
+| utils                                                                                                |          3 |         63 |         29 |         13 |        105 |
++------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| filename                                                                                             | language         | code       | comment    | blank      | total      |
++------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\PyQtFlightTest.py                    | Python           |         17 |         10 |          6 |         33 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\README.md                            | Markdown         |          4 |          0 |          2 |          6 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\config\MainWindowSettings.py         | Python           |         11 |          7 |          5 |         23 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\config\MatplotlibSettings.py         | Python           |         65 |         17 |          7 |         89 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\config\Name.py                       | Python           |         51 |         20 |         17 |         88 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\config\PyvistaSettings.py            | Python           |         15 |          9 |          7 |         31 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\config\__init__.py                   | Python           |          2 |          7 |          2 |         11 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\docs\side_bar.md                     | Markdown         |          7 |          0 |          2 |          9 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\draft\lstsq.ipynb                    | Jupyter          |        119 |          0 |          1 |        120 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\draft\side_tab.py                    | Python           |         48 |          7 |         24 |         79 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\draft\side_tab.qss                   | CSS              |         16 |          0 |          2 |         18 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\draft\simulation_database_read.ipynb | Jupyter          |        148 |          0 |          1 |        149 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\draft\stack_widget.py                | Python           |         54 |         13 |         17 |         84 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\requirements.txt                     | pip requirements |         13 |          0 |          1 |         14 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\src\CommunicatorClass.py             | Python           |         74 |         16 |         22 |        112 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\src\DomainsWithGenDisClass.py        | Python           |         89 |         26 |         22 |        137 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\src\Logic_MainWindow.py              | Python           |        154 |         26 |         26 |        206 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\src\MatplotlibCanvasClass.py         | Python           |         78 |         17 |         28 |        123 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\src\SensorsClass.py                  | Python           |         32 |         17 |         16 |         65 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\src\SimulationDatabaseClass.py       | Python           |         86 |         35 |         26 |        147 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\src\__init__.py                      | Python           |          2 |          7 |          2 |         11 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\tests\__init__.py                    | Python           |          2 |          7 |          2 |         11 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\tests\test_DomainsWithGenDis.py      | Python           |         11 |         20 |          6 |         37 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\tests\test_Sensors.py                | Python           |         12 |         27 |          7 |         46 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\tests\test_SimulationDatabase.py     | Python           |         16 |         29 |          7 |         52 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\ui\MainWindow.ui                     | XML              |        185 |          0 |          1 |        186 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\ui\Ui_MainWindow.py                  | Python           |        133 |         10 |         36 |        179 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\ui\__init__.py                       | Python           |          2 |          7 |          2 |         11 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\utils\RegularExpression.py           | Python           |         31 |         12 |          6 |         49 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\utils\SubDict.py                     | Python           |         30 |         10 |          5 |         45 |
+| c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtFlightTest\utils\__init__.py                    | Python           |          2 |          7 |          2 |         11 |
+| Total                                                                                                |                  |      1,509 |        363 |        310 |      2,182 |
++------------------------------------------------------------------------------------------------------+------------------+------------+------------+------------+------------+

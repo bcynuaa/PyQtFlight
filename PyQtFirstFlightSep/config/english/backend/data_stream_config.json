@@ -1,0 +1,149 @@
+{
+    "latest data": {
+        "regular expression": "[Ll][Aa][Tt][Ee][Ss][Tt][Dd][Aa][Tt][Aa]",
+        "format": ".dat",
+        "skiprows": 0,
+        "delim_whitespace": true,
+        "header": null,
+        "index_col": false,
+        "comment": "latest data file"
+    },
+
+    "time columns": {
+        "name": "time",
+        "component": {
+            "hour": {
+                "number": 1,
+                "name": "hour",
+                "conversion": 3600
+            },
+            "minute": {
+                "number": 2,
+                "name": "min",
+                "conversion": 60
+            },
+            "second": {
+                "number": 3,
+                "name": "sec",
+                "conversion": 1
+            },
+            "millisecond": {
+                "number": 4,
+                "name": "mssec",
+                "conversion": 0.001
+            }
+        }
+    },
+
+    "sensor columns": {
+        "first column number": 35,
+        "name": "sensor"
+    },
+
+    "parameter columns": {
+        "pressure altitude": {
+            "number": 5,
+            "name": "pressure altitude",
+            "units": "m"
+        },
+        "calibrated airspeed": {
+            "number": 6,
+            "name": "CAS",
+            "units": "km/h"
+        },
+        "mach": {
+            "number": 7,
+            "name": "mach",
+            "units": "none"
+        },
+        "angle of attack": {
+            "number": 8,
+            "name": "alpha",
+            "units": "deg"
+        },
+        "angle of roll": {
+            "number": 9,
+            "name": "phi",
+            "units": "deg"
+        },
+        "angle of sideslip": {
+            "number": 10,
+            "name": "beta",
+            "units": "deg"
+        },
+        "left flaperon position": {
+            "number": 11,
+            "name": "left flaperon",
+            "units": "deg"
+        },
+        "right flaperon position": {
+            "number": 12,
+            "name": "right flaperon",
+            "units": "deg"
+        },
+        "left horizontal tail position": {
+            "number": 13,
+            "name": "left horiz tail",
+            "units": "deg"
+        },
+        "right horizontal tail position": {
+            "number": 14,
+            "name": "right horiz tail",
+            "units": "deg"
+        },
+        "left rudder position": {
+            "number": 15,
+            "name": "left rudder",
+            "units": "deg"
+        },
+        "right rudder position": {
+            "number": 16,
+            "name": "right rudder",
+            "units": "deg"
+        }
+    },
+
+    "parameter with units": {
+        "activated": true,
+        "separator": " ",
+        "before": "(",
+        "after": ")"
+    },
+
+    "markdown table": {
+        "parameter name": "parameter",
+        "parameter align": "center",
+        "value name": "value",
+        "value align": "center",
+        "separator": " ",
+        "column number": 1,
+        "index": false,
+        "comment 1": "warning: you should ensure that the column number can devide the number of parameters",
+        "comment 2": "align of parameter and value can be specficied by 'left', 'right' or 'center' seperately"
+    },
+
+    "latest sensor data": {
+        "curves": {
+            "n rows": 10000
+        },
+        "bars": {
+            "n rows": 200
+        },
+        "grids": {
+            "n rows": 32
+        }
+    },
+    
+    "save": {
+        "activated": true,
+        "path": ".//data//history//data_stream",
+        "name": "data_stream",
+        "separator": "_",
+        "time format": "%Y-%m-%d-%H-%M-%S",
+        "format": ".csv",
+        "header": true,
+        "sep": "\t",
+        "index": false,
+        "comment": "the format should be 'csv' or dat which can be recognized by pandas"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "load json file": {
+        "type": "getOpenFileName",
+        "default path": ".//",
+        "window title": "choose a file to load json configuration",
+        "filter": "json (*.json)"
+    },
+    
+    "save data stream": {
+        "type": "getSaveFileName",
+        "default filename": ".//data_stream.csv",
+        "window title": "choose a file to save data stream",
+        "filter": "data stream (*.csv)"
+    }
+}

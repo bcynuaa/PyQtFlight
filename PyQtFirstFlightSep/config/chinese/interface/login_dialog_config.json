@@ -1,0 +1,19 @@
+{
+    
+    "size": [500, 250],
+
+    "dialog title": "登陆界面",
+    "dialog icon": ".//resources//icons//dialog_icon.png",
+    
+    "username": {
+        "label": "用户名: ",
+        "line edit": "请输入用户名..."
+    },
+
+    "password": {
+        "label": "密  码: ",
+        "line edit": "请输入密码..."
+    },
+
+    "login button": "登录"
+}

@@ -1,0 +1,20 @@
+{
+    "ok text": "ok",
+    "cancel text": "cancel",
+
+    "replay start row": {
+        "type": "get int",
+        "window title": "回放开始行",
+        "label text": "开始行: "
+    },
+    "replay end row": {
+        "type": "get int",
+        "window title": "回放结束行",
+        "label text": "结束行: "
+    },
+    "replay interval row": {
+        "type": "get int",
+        "window title": "回放间隔行",
+        "label text": "间隔行: "
+    }
+}

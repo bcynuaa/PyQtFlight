@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PyQtVisualFlight</class>
+ <widget class="QMainWindow" name="PyQtVisualFlight">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>990</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="flight_test_vertical_layout">
+      <item>
+       <widget class="QGroupBox" name="flight_test_group_box">
+        <property name="title">
+         <string>试飞数据3D模型展示窗</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTabWidget" name="flight_test_tab_widget">
+        <property name="currentIndex">
+         <number>1</number>
+        </property>
+        <widget class="QWidget" name="flight_test_time_domain_tab">
+         <attribute name="title">
+          <string>Tab 1</string>
+         </attribute>
+        </widget>
+        <widget class="QWidget" name="flight_test_frequency_domain_tab">
+         <attribute name="title">
+          <string>Tab 2</string>
+         </attribute>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="simulation_vertical_layout">
+      <item>
+       <widget class="QGroupBox" name="simulation_group_box">
+        <property name="title">
+         <string>仿真数据3D模型展示窗</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTabWidget" name="simulation_tab_widget">
+        <widget class="QWidget" name="simulation_time_domain_tab">
+         <attribute name="title">
+          <string>Tab 1</string>
+         </attribute>
+        </widget>
+        <widget class="QWidget" name="simulation_frequency_domain_tab">
+         <attribute name="title">
+          <string>Tab 2</string>
+         </attribute>
+        </widget>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>990</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuConnect_To_Observer">
+     <property name="title">
+      <string>Connect To Observer</string>
+     </property>
+     <addaction name="actionFlight_Test_Observer"/>
+     <addaction name="actionSimulation_Observer"/>
+    </widget>
+    <addaction name="actionLoad_Domain_Files"/>
+    <addaction name="menuConnect_To_Observer"/>
+    <addaction name="actionStart_Updating"/>
+    <addaction name="actionEnd_Updating"/>
+   </widget>
+   <widget class="QMenu" name="menuOption">
+    <property name="title">
+     <string>Option</string>
+    </property>
+    <widget class="QMenu" name="menuMagnification">
+     <property name="title">
+      <string>Magnification</string>
+     </property>
+     <addaction name="actionFlight_Test_Magnification"/>
+     <addaction name="actionSimulation_Magnification"/>
+    </widget>
+    <addaction name="menuMagnification"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menuOption"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionLoad_Domain_Files">
+   <property name="text">
+    <string>Load Domain Files</string>
+   </property>
+  </action>
+  <action name="actionFlight_Test_Observer">
+   <property name="text">
+    <string>Flight Test Observer</string>
+   </property>
+  </action>
+  <action name="actionSimulation_Observer">
+   <property name="text">
+    <string>Simulation Observer</string>
+   </property>
+  </action>
+  <action name="actionStart_Updating">
+   <property name="text">
+    <string>Start Updating</string>
+   </property>
+  </action>
+  <action name="actionEnd_Updating">
+   <property name="text">
+    <string>End Updating</string>
+   </property>
+  </action>
+  <action name="actionFlight_Test_Magnification">
+   <property name="text">
+    <string>Flight Test Magnification</string>
+   </property>
+  </action>
+  <action name="actionSimulation_Magnification">
+   <property name="text">
+    <string>Simulation Magnification</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

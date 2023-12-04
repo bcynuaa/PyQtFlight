@@ -1,0 +1,63 @@
+{
+    "max points": 20000,
+    "pen": {
+        "color list": {
+            "comment 1": "enought long color list for pen color, with 50 colors",
+            "comment 2": "each one is different a lot from its neighbors",
+            "comment 3": "and each one is different",
+            "values": [
+                "#000000", "#f00000", "#00f000", "#0000f0", "#f0f000",
+                "#00f0f0", "#f000f0", "#f0f0f0", "#00ffff", "#ffffff",
+                "#ff0000", "#00ff00", "#0000ff", "#ffff00", "#00ffff",
+                "#ff00ff", "#ffffff", "#000000", "#f00000", "#00f000",
+                "#0000f0", "#f0f000", "#00f0f0", "#f000f0", "#f0f0f0",
+                "#00ffff", "#ffffff", "#ff0000", "#00ff00", "#0000ff",
+                "#ffff00", "#00ffff", "#ff00ff", "#ffffff", "#000000",
+                "#f00000", "#00f000", "#0000f0", "#f0f000", "#00f0f0",
+                "#f000f0", "#f0f0f0", "#00ffff", "#ffffff", "#ff0000",
+                "#00ff00", "#0000ff", "#ffff00", "#00ffff", "#ff00ff"
+            ]
+        },
+        "width": 1,
+        "cap_style": "SquareCap",
+        "join_style": "MiterJoin"
+    },
+    "global color": "#696969",
+    "global font-family": "SimHei",
+    "background color": "#ffffff",
+    "axis width": 2,
+    "pixel size": 10,
+    "enable mouse": false,
+    "enable menu": true,
+
+    "bottom": {
+        "label": "time",
+        "units": "s",
+        "unitPrefix": " "
+    },
+    "left": {
+        "label": "sensor",
+        "units": "g",
+        "unitPrefix": " "
+    },
+    "label": {
+        "font-size": "8pt"
+    },
+    "title": {
+        "name": " ",
+        "settings": {
+            "font-size": "20pt"
+        }
+    },
+
+    "grid": {
+        "x": true,
+        "y": true
+    },
+
+    "y ticks limit": {
+        "activated": true,
+        "y min": -15,
+        "y max": 15
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "load json file succeeded": {
+        "type": "information",
+        "window title": "信息: 成功加载配置文件",
+        "message": "成功加载配置文件, 模态数: %d, 传感器数: %d"
+    },
+
+    "load json file failed": {
+        "type": "warning",
+        "window title": "警告: 加载配置文件失败",
+        "message": "加载配置文件失败, 请检查配置文件是否存在或格式是否正确"
+    },
+    
+    "save data stream": {
+        "type": "information",
+        "window title": "信息: 保存数据流",
+        "message": "保存数据流至文件: %s"
+    },
+
+    "clear data stream": {
+        "type": "information",
+        "window title": "信息: 清除数据流",
+        "message": "清除数据流完成 !"
+    },
+
+    "start monitoring": {
+        "type": "information",
+        "window title": "信息: 开始监测",
+        "message": "开始监测路径: %s"
+    },
+    "already monitoring": {
+        "type": "information",
+        "window title": "信息: 已在监测",
+        "message": "已在监测路径: %s"
+    },
+    "end monitoring": {
+        "type": "information",
+        "window title": "信息: 结束监测",
+        "message": "结束监测路径: %s"
+    },
+    "replay finished": {
+        "type": "information",
+        "window title": "信息: 回放完成",
+        "message": "回放完成!"
+    }
+}

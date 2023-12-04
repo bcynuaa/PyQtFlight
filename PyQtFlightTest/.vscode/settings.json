@@ -1,0 +1,30 @@
+{
+    "autoHeader": {
+        "format": {
+            "startWith": "'''",
+            "middleWith": "*",
+            "endWith": "'''",
+            "headerPrefix": "-",
+        },
+        "header": {
+            "coding": "utf-8",
+            "language": "python",
+            "project": "PyQtFlightTest",
+            "author": "bcynuaa",
+            "date": {
+                "type": "createTime",
+                "format": "YYYY-MM-DD HH:mm:ss",
+            },
+            "license": "Mozilla Public License 2.0",
+            // "Modified by": {
+            //     "type": "modifier",
+            //     "value": "Your name",
+            // },
+            // "Modified time": {
+            //     "type": "modifyTime",
+            //     "format": "YYYY-MM-DD HH:mm:ss"
+            // },
+            "description": "",
+        }
+    }
+}

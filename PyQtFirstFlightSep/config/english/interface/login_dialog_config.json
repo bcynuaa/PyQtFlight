@@ -1,0 +1,19 @@
+{
+    
+    "size": [500, 250],
+
+    "dialog title": "Login Dialog",
+    "dialog icon": ".//resources//icons//dialog_icon.png",
+    
+    "username": {
+        "label": "Username: ",
+        "line edit": "Input username here..."
+    },
+
+    "password": {
+        "label": "Password: ",
+        "line edit": "Input password here..."
+    },
+
+    "login button": "Login"
+}

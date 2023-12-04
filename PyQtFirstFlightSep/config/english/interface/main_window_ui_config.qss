@@ -1,0 +1,97 @@
+QMainWindow {
+    background-color: #000000;
+    color: #00ff00;
+    font-family: SimHei;
+    font-size: 12pt;
+}
+
+QMenuBar {
+    background-color: #000000;
+    color: #00ff00;
+    font-family: SimHei;
+    font-size: 14pt;
+}
+
+QMenuBar::item {
+    background-color: #000000;
+    color: #00ff00;
+    padding: 4px 10px;
+    font-family: SimHei;
+    font-size: 12pt;
+}
+
+QMenuBar::item:selected {
+    background-color: #8b8a8a;
+}
+
+QMenu {
+    background-color: #000000;
+    color: #00ff00;
+    padding: 4px 10px;
+    font-family: SimHei;
+    font-size: 10pt;
+}
+
+QMenu::item {
+    background-color: #000000;
+    color: #00ff00;
+    padding: 4px 10px;
+    font-family: SimHei;
+    font-size: 10pt;
+}
+
+QMenu::item:selected {
+    background-color: #8b8a8a;
+}
+
+QLabel {
+    background-color: #000000;
+    color: #00ff00;
+    font-family: SimHei;
+    font-size: 14pt;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+}
+
+QMessageBox {
+    background-color: #000000;
+    color: #00ff00;
+    font-family: SimHei;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+QInputDialog {
+    background-color: #000000;
+    color: #00ff00;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+QInputDialog QLabel {
+    color: #00ff00;
+}
+QInputDialog QLineEdit {
+    background-color: #000000;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    padding: 5px;
+}
+QInputDialog QPushButton {
+    background-color: #00ff00;
+    color: #000000;
+    border: none;
+    padding: 5px 10px;
+}
+QInputDialog QPushButton:hover {
+    background-color: #00ff00;
+}

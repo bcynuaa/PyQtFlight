@@ -1,0 +1,34 @@
+{
+    "plot theme": {
+        "value": "document",
+        "comment": "the theme of the plot",
+        "option": ["document", "dark", "paraview", "default"],
+        "reference": "https://docs.pyvista.org/version/stable/api/plotting/_autosummary/pyvista.set_plot_theme.html#pyvista.set_plot_theme"
+    },
+
+    "font": {
+        "size": 20.0,
+        "title size": 40.0,
+        "label size": 20.0,
+        "family": "times",
+        "color": "black",
+        "fmt": "%.4e",
+        "reference": "https://docs.pyvista.org/version/stable/api/plotting/_autosummary/pyvista.themes.Theme.font.html"
+    },
+
+    "color": {
+        "cmap": "jet",
+        "opacity": 0.95,
+        "color": "white",
+        "edge color": "black",
+        "colorbar horizontal height": 0.2,
+        "colorbar horizontal width": 0.6,
+        "reference": "https://docs.pyvista.org/version/stable/api/plotting/_autosummary/pyvista.themes.Theme.colorbar_horizontal.html"
+    },
+
+    "plot": {
+        "show edges": true,
+        "axes show": true,
+        "show scalar bar": true
+    }
+}

@@ -1,0 +1,34 @@
+"filename", "language", "Python", "XML", "pip requirements", "Markdown", "Jupyter", "comment", "blank", "total"
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\PyQtVisualFlight.py", "Python", 16, 0, 0, 0, 0, 6, 8, 30
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\README.md", "Markdown", 0, 0, 0, 2, 0, 0, 1, 3
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\config\Base.py", "Python", 7, 0, 0, 0, 0, 14, 5, 26
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\config\MatplotlibSettings.py", "Python", 63, 0, 0, 0, 0, 14, 9, 86
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\config\PyvistaSettings.py", "Python", 13, 0, 0, 0, 0, 7, 9, 29
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\config\ThingsInMainWindow.py", "Python", 3, 0, 0, 0, 0, 6, 4, 13
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\config\ThingsInMatplotlib.py", "Python", 23, 0, 0, 0, 0, 22, 7, 52
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\config\__init__.py", "Python", 0, 0, 0, 0, 0, 3, 0, 3
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\doc\logic_watchdog.md", "Markdown", 0, 0, 0, 2, 0, 0, 1, 3
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\doc\run_bat.md", "Markdown", 0, 0, 0, 104, 0, 0, 38, 142
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\draft\3D_array.ipynb", "Jupyter", 0, 0, 0, 0, 209, 0, 1, 210
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\draft\callback_test.ipynb", "Jupyter", 0, 0, 0, 0, 179, 0, 1, 180
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\draft\nploadtxt.ipynb", "Jupyter", 0, 0, 0, 0, 101, 0, 1, 102
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\draft\watchdog_test.py", "Python", 48, 0, 0, 0, 0, 9, 5, 62
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\requirements.txt", "pip requirements", 0, 0, 12, 0, 0, 0, 1, 13
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\src\InteractiveClass.py", "Python", 80, 0, 0, 0, 0, 20, 20, 120
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\src\Logic_MainWindow.py", "Python", 182, 0, 0, 0, 0, 29, 33, 244
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\src\MatplotlibClass.py", "Python", 79, 0, 0, 0, 0, 51, 22, 152
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\src\MeshClass.py", "Python", 166, 0, 0, 0, 0, 144, 33, 343
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\src\__init__.py", "Python", 0, 0, 0, 0, 0, 3, 0, 3
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\test\__init__.py", "Python", 0, 0, 0, 0, 0, 3, 0, 3
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\test\test_Header.py", "Python", 9, 0, 0, 0, 0, 6, 4, 19
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\test\test_src_MeshClass.py", "Python", 6, 0, 0, 0, 0, 31, 9, 46
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\test\test_utils_PatternMatch.py", "Python", 4, 0, 0, 0, 0, 9, 5, 18
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\test\test_utils_WatchDog.py", "Python", 11, 0, 0, 0, 0, 17, 6, 34
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\ui\MainWindow.ui", "XML", 0, 153, 0, 0, 0, 0, 1, 154
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\ui\Ui_MainWindow.py", "Python", 105, 0, 0, 0, 0, 10, 24, 139
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\utils\FileObserber.py", "Python", 76, 0, 0, 0, 0, 63, 20, 159
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\utils\PatternMatch.py", "Python", 16, 0, 0, 0, 0, 8, 5, 29
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\utils\RunBat.py", "Python", 7, 0, 0, 0, 0, 11, 5, 23
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\utils\ThreadWatchdog.py", "Python", 32, 0, 0, 0, 0, 20, 13, 65
+"c:\Users\bcynuaa\Desktop\LocalProject\GuoQT\CODE\PyQtVisualFlight\utils\__init__.py", "Python", 0, 0, 0, 0, 0, 3, 0, 3
+"Total", "-", 946, 153, 12, 108, 489, 509, 291, 2508

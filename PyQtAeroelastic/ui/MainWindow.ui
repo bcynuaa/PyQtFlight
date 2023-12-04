@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>955</width>
+    <height>609</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QGroupBox" name="matplotlib_group_box">
+        <property name="title">
+         <string>广义位移响应曲线-Matplotlib</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextBrowser" name="info_text_browser"/>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="pyvista_group_box">
+      <property name="title">
+       <string>三维动态模型展示-Pyvista</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>955</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuAnnimation">
+     <property name="title">
+      <string>Annimation</string>
+     </property>
+     <addaction name="actionExport_GIF"/>
+     <addaction name="actionExport_MP4"/>
+    </widget>
+    <addaction name="actionLoad_Data_Path"/>
+    <addaction name="menuAnnimation"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+    <widget class="QMenu" name="menuMulti_Curves_in_New_Window">
+     <property name="title">
+      <string>Multi-Curves in New Window</string>
+     </property>
+     <addaction name="actionAll_In_One"/>
+     <addaction name="actionSplit"/>
+    </widget>
+    <addaction name="actionNew_Pyvista_Window"/>
+    <addaction name="actionOne_Curve_in_New_Window"/>
+    <addaction name="menuMulti_Curves_in_New_Window"/>
+    <addaction name="actionAuto_Display"/>
+    <addaction name="actionClear_Log_Browser"/>
+   </widget>
+   <widget class="QMenu" name="menuOptions">
+    <property name="title">
+     <string>Option</string>
+    </property>
+    <addaction name="actionDisplacement_Magnification"/>
+    <addaction name="actionShow_Edges"/>
+    <addaction name="actionChange_Scalar"/>
+    <addaction name="actionChange_Cmap"/>
+    <addaction name="actionChange_Scalar_Clim"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuView"/>
+   <addaction name="menuOptions"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionLoad_Data_Path">
+   <property name="text">
+    <string>Load Data Path</string>
+   </property>
+  </action>
+  <action name="actionDisplacement_Magnification">
+   <property name="text">
+    <string>Displacement Magnification</string>
+   </property>
+  </action>
+  <action name="actionShow_Edges">
+   <property name="text">
+    <string>Show Edges</string>
+   </property>
+  </action>
+  <action name="actionOne_Curve_in_New_Window">
+   <property name="text">
+    <string>One Curve in New Window </string>
+   </property>
+  </action>
+  <action name="actionChange_Scalar">
+   <property name="text">
+    <string>Change Scalar</string>
+   </property>
+  </action>
+  <action name="actionNew_Pyvista_Window">
+   <property name="text">
+    <string>New Pyvista Window</string>
+   </property>
+  </action>
+  <action name="actionAll_In_One">
+   <property name="text">
+    <string>All In One</string>
+   </property>
+  </action>
+  <action name="actionSplit">
+   <property name="text">
+    <string>Split</string>
+   </property>
+  </action>
+  <action name="actionClear_Log_Browser">
+   <property name="text">
+    <string>Clear Log Browser</string>
+   </property>
+  </action>
+  <action name="actionChange_Cmap">
+   <property name="text">
+    <string>Change Cmap</string>
+   </property>
+  </action>
+  <action name="actionChange_Scalar_Clim">
+   <property name="text">
+    <string>Change Scalar Clim</string>
+   </property>
+  </action>
+  <action name="actionAuto_Display">
+   <property name="text">
+    <string>Auto-Display</string>
+   </property>
+  </action>
+  <action name="actionExport_GIF">
+   <property name="text">
+    <string>Export GIF</string>
+   </property>
+  </action>
+  <action name="actionExport_MP4">
+   <property name="text">
+    <string>Export MP4</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,15 @@
+{
+    "load json file": {
+        "type": "getOpenFileName",
+        "default path": ".//",
+        "window title": "选取导入的配置文件",
+        "filter": "json (*.json)"
+    },
+    
+    "save data stream": {
+        "type": "getSaveFileName",
+        "default filename": ".//data_stream.csv",
+        "window title": "选取数据流保存文件",
+        "filter": "数据流文件 (*.csv)"
+    }
+}

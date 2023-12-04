@@ -1,0 +1,71 @@
+{
+    "window title": "Flight Flutter Test Digital Platform",
+
+    "window icon": ".//resources//icons//window_icon.png",
+
+    "menu bar": {
+        "files": {
+            "text": "Files",
+            "values": {
+                "load data": {
+                    "text": "Load Data",
+                    "values": {
+                        "load json file": {
+                            "text": "Load Json File"
+                        }
+                    }
+                },
+                "data stream": {
+                    "text": "Data Stream",
+                    "values": {
+                        "save data stream": {
+                            "text": "Save Data Stream"
+                        },
+                        "clear data stream": {
+                            "text": "Clear Data Stream"
+                        }
+                    }
+                }
+            }
+        },
+        "edit": {
+            "text": "Edit",
+            "values": {
+                "todo": {
+                    "text": "Todo"
+                }
+            }
+        },
+        "options": {
+            "text": "Options",
+            "values": {
+                "start monitoring": {
+                    "text": "Start Monitoring"
+                },
+                "end monitoring": {
+                    "text": "End Monitoring"
+                },
+                "replay": {
+                    "text": "Replay"
+                }
+            }
+        },
+        "tools": {
+            "text": "Tools",
+            "values": {
+                "run executables": {
+                    "text": "Run Executables"
+                }
+            }
+        }
+    },
+
+    "labels": {
+        "flight test grid plotter": {
+            "text": "Flight Test 3D Model"
+        },
+        "simulation grid plotter": {
+            "text": "Simulation 3D Model"
+        }
+    }
+}

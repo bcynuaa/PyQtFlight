@@ -1,0 +1,20 @@
+{
+    "ok text": "ok",
+    "cancel text": "cancel",
+
+    "replay start row": {
+        "type": "get int",
+        "window title": "replay start row",
+        "label text": "start from row: "
+    },
+    "replay end row": {
+        "type": "get int",
+        "window title": "replay end row",
+        "label text": "end at row: "
+    },
+    "replay interval row": {
+        "type": "get int",
+        "window title": "replay interval row",
+        "label text": "interval row: "
+    }
+}

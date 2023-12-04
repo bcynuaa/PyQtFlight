@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>776</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 11pt &quot;微软雅黑&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="left_side_vertical_layout">
+      <item>
+       <widget class="QLabel" name="switch_stack_list_widget_label">
+        <property name="text">
+         <string>页面选项卡</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QListWidget" name="switch_stack_list_widget"/>
+      </item>
+      <item>
+       <widget class="QLabel" name="info_text_browser_label">
+        <property name="text">
+         <string>信息提示窗</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QTextBrowser" name="info_text_browser">
+        <property name="font">
+         <font>
+          <family>微软雅黑</family>
+          <pointsize>11</pointsize>
+          <weight>50</weight>
+          <italic>false</italic>
+          <bold>false</bold>
+         </font>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QStackedWidget" name="right_stacked_widget">
+      <widget class="QWidget" name="main_page">
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <layout class="QVBoxLayout" name="main_page_flight_test_vertical_layout">
+          <item>
+           <widget class="QGroupBox" name="main_page_flight_test_group_box">
+            <property name="title">
+             <string>试飞3D模型</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTabWidget" name="main_page_flight_test_tab_widget">
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="main_page_flight_test_time_tab">
+             <attribute name="title">
+              <string>Tab 1</string>
+             </attribute>
+            </widget>
+            <widget class="QWidget" name="main_page_flight_test_frequency_tab">
+             <attribute name="title">
+              <string>Tab 2</string>
+             </attribute>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item>
+         <layout class="QVBoxLayout" name="main_page_simulation_vertical_layout">
+          <item>
+           <widget class="QGroupBox" name="main_page_simulation_group_box">
+            <property name="title">
+             <string>仿真3D模型</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QTabWidget" name="main_page_simulation_tab_widget">
+            <property name="currentIndex">
+             <number>0</number>
+            </property>
+            <widget class="QWidget" name="main_page_simulation_time_tab">
+             <attribute name="title">
+              <string>Tab 1</string>
+             </attribute>
+            </widget>
+            <widget class="QWidget" name="main_page_simulation_frequency_tab">
+             <attribute name="title">
+              <string>Tab 2</string>
+             </attribute>
+            </widget>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="signal_page"/>
+      <widget class="QWidget" name="simulation_page"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <widget class="QMenu" name="menuLoad_Data">
+     <property name="title">
+      <string>Load Data</string>
+     </property>
+     <addaction name="actionLoad_Domains"/>
+     <addaction name="actionLoad_Simuation_Database"/>
+     <addaction name="actionLoad_Sensors_Points"/>
+    </widget>
+    <addaction name="menuLoad_Data"/>
+   </widget>
+   <widget class="QMenu" name="menuView">
+    <property name="title">
+     <string>View</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuOption">
+    <property name="title">
+     <string>Option</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuTools">
+    <property name="title">
+     <string>Tools</string>
+    </property>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuView"/>
+   <addaction name="menuOption"/>
+   <addaction name="menuTools"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionLoad_Domains">
+   <property name="text">
+    <string>Load Domains</string>
+   </property>
+  </action>
+  <action name="actionLoad_Simuation_Database">
+   <property name="text">
+    <string>Load Simuation Database</string>
+   </property>
+  </action>
+  <action name="actionLoad_Sensors_Points">
+   <property name="text">
+    <string>Load Sensors Points</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

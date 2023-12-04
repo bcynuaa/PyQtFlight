@@ -1,0 +1,9 @@
+{
+    "map matrix": {
+        "regular expression": "[Ss][Ee][Nn][Ss][Oo][Rr][Ss][Mm][Aa][Pp]",
+        "format": ".dat",
+        "skiprows": 0,
+        "comment 1": "map matrix file should look like: SENsormAP.dat etc.",
+        "commen 2": "with skiprows = 0, the first row is skipped, which is the header row"
+    }
+}

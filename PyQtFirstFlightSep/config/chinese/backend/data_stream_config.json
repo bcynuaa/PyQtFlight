@@ -1,0 +1,149 @@
+{
+    "latest data": {
+        "regular expression": "[Ll][Aa][Tt][Ee][Ss][Tt][Dd][Aa][Tt][Aa]",
+        "format": ".dat",
+        "skiprows": 0,
+        "delim_whitespace": true,
+        "header": null,
+        "index_col": false,
+        "comment": "latest data file"
+    },
+
+    "time columns": {
+        "name": "时间",
+        "component": {
+            "hour": {
+                "number": 1,
+                "name": "时",
+                "conversion": 3600
+            },
+            "minute": {
+                "number": 2,
+                "name": "分",
+                "conversion": 60
+            },
+            "second": {
+                "number": 3,
+                "name": "秒",
+                "conversion": 1
+            },
+            "millisecond": {
+                "number": 4,
+                "name": "毫秒",
+                "conversion": 0.001
+            }
+        }
+    },
+
+    "sensor columns": {
+        "first column number": 35,
+        "name": "信道"
+    },
+
+    "parameter columns": {
+        "pressure altitude": {
+            "number": 5,
+            "name": "气压高度",
+            "units": "米"
+        },
+        "calibrated airspeed": {
+            "number": 6,
+            "name": "校正空速",
+            "units": "千米/小时"
+        },
+        "mach": {
+            "number": 7,
+            "name": "马赫",
+            "units": "/"
+        },
+        "angle of attack": {
+            "number": 8,
+            "name": "迎角",
+            "units": "度"
+        },
+        "angle of roll": {
+            "number": 9,
+            "name": "滚转角",
+            "units": "度"
+        },
+        "angle of sideslip": {
+            "number": 10,
+            "name": "侧滑角",
+            "units": "度"
+        },
+        "left flaperon position": {
+            "number": 11,
+            "name": "左襟副翼位置",
+            "units": "度"
+        },
+        "right flaperon position": {
+            "number": 12,
+            "name": "右襟副翼位置",
+            "units": "度"
+        },
+        "left horizontal tail position": {
+            "number": 13,
+            "name": "左平尾位置",
+            "units": "度"
+        },
+        "right horizontal tail position": {
+            "number": 14,
+            "name": "右平尾位置",
+            "units": "度"
+        },
+        "left rudder position": {
+            "number": 15,
+            "name": "左方向舵位置",
+            "units": "度"
+        },
+        "right rudder position": {
+            "number": 16,
+            "name": "右方向舵位置",
+            "units": "度"
+        }
+    },
+
+    "parameter with units": {
+        "activated": true,
+        "separator": " ",
+        "before": "(",
+        "after": ")"
+    },
+
+    "markdown table": {
+        "parameter name": "飞行参数名列",
+        "parameter align": "center",
+        "value name": "飞行参数值列",
+        "value align": "center",
+        "separator": " ",
+        "column number": 1,
+        "index": false,
+        "comment 1": "warning: you should ensure that the column number can devide the number of parameters",
+        "comment 2": "align of parameter and value can be specficied by 'left', 'right' or 'center' seperately"
+    },
+
+    "latest sensor data": {
+        "curves": {
+            "n rows": 10000
+        },
+        "bars": {
+            "n rows": 200
+        },
+        "grids": {
+            "n rows": 32
+        }
+    },
+
+    "save": {
+        "activated": true,
+        "path": ".//data//history//data_stream",
+        "name": "data_stream",
+        "separator": "_",
+        "time format": "%Y-%m-%d-%H-%M-%S",
+        "format": ".csv",
+        "header": true,
+        "sep": "\t",
+        "index": false,
+        "comment": "the format should be 'csv' or dat which can be recognized by pandas"
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "load json file succeeded": {
+        "type": "information",
+        "window title": "information: load json file succeeded",
+        "message": "load json file succeeded, with modes: %d, sensors: %d"
+    },
+
+    "load json file failed": {
+        "type": "warning",
+        "window title": "warning: load json file failed",
+        "message": "load json file failed, please check the json file"
+    },
+    
+    "save data stream": {
+        "type": "information",
+        "window title": "information: save data stream",
+        "message": "save data stream to file: %s"
+    },
+
+    "clear data stream": {
+        "type": "information",
+        "window title": "information: clear data stream",
+        "message": "clear data stream finished !"
+    },
+
+    "start monitoring": {
+        "type": "information",
+        "window title": "information: start monitoring",
+        "message": "start monitoring on path: %s"
+    },
+    "already monitoring": {
+        "type": "information",
+        "window title": "information: already monitoring",
+        "message": "already monitoring on path: %s"
+    },
+    "end monitoring": {
+        "type": "information",
+        "window title": "information: end monitoring",
+        "message": "end monitoring on path: %s"
+    },
+    "replay finished": {
+        "type": "information",
+        "window title": "information: replay finished",
+        "message": "replay finished !"
+    }
+}

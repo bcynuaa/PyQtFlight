@@ -1,0 +1,25 @@
+{
+    "curves": {
+        "sensor number": [1, 3, 4]
+    },
+
+    "bars": {
+        "devide": 2,
+        "value limit": 0.5,
+        "sensor number": {
+            "except": {
+                "activated": false,
+                "number": [1]
+            },
+            "reorder": {
+                "activated": true,
+                "number": [4, 3, 2]
+            }
+        }
+    },
+
+    "grids": {
+        "sleep time": 0.01,
+        "comment": "any language or computer cannot accurately stop thread for specified time. so, this value should be adjusted by your environment."
+    }
+}

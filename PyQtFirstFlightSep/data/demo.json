@@ -1,0 +1,14 @@
+{
+    "files": {
+        "domains": ".//data//domains_data//",
+        "map matrix": ".//data//grids_data//SensorsMap.dat",
+        "standard mode response": ".//data//grids_data//StandardModeResponse.dat",
+        "monitor path": ".//data//update_data//"
+    },
+
+    "settings": {
+        "basic magnification": 0.01,
+        "compared sensor number": 1,
+        "first column number": 35
+    }
+}
